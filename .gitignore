@@ -1,0 +1,24 @@
+# python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+build/
+dist/
+
+# checkpoints locais (gerados por `llmzero train`)
+runs/
+
+# segredos: o projeto não usa nenhum, mas nunca devem entrar no repositório
+.env
+*.pem
+*.key
+
+# editores / sistema
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
